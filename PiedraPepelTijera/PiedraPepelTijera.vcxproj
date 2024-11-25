@@ -131,13 +131,16 @@
     <ClCompile Include="game\model\SelectPcOption\SelectPcOption.cpp" />
     <ClCompile Include="game\view\SelectPcOptionView\SelectPcOptionView.cpp" />
     <ClCompile Include="game\view\SelectPlayerOptionView.cpp" />
+    <ClCompile Include="game\helpers\ShowElementsName\ShowElementsName.cpp" />
     <ClCompile Include="PiedraPepelTijera.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="game\data\Elements.h" />
     <ClInclude Include="game\helpers\ShowErrosMsg.h" />
     <ClInclude Include="game\model\SelectPcOption\SelectPcOption.h" />
     <ClInclude Include="game\view\SelectPcOptionView\SelectPcOptionView.h" />
     <ClInclude Include="game\view\SelectPlayerOptionView.h" />
+    <ClInclude Include="game\helpers\ShowElementsName\ShowElementsName.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
