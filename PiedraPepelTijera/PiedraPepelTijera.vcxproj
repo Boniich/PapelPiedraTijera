@@ -127,19 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="game\helpers\ShowErrosMsg.cpp" />
+    <ClCompile Include="game\helpers\ShowErrorMsg\ShowErrorMsg.cpp" />
     <ClCompile Include="game\model\SelectPcOption\SelectPcOption.cpp" />
     <ClCompile Include="game\view\SelectPcOptionView\SelectPcOptionView.cpp" />
-    <ClCompile Include="game\view\SelectPlayerOptionView.cpp" />
+    <ClCompile Include="game\view\SelectPlayerOptionView\SelectPlayerOptionView.cpp" />
     <ClCompile Include="game\helpers\ShowElementsName\ShowElementsName.cpp" />
     <ClCompile Include="PiedraPepelTijera.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game\data\Elements.h" />
-    <ClInclude Include="game\helpers\ShowErrosMsg.h" />
+    <ClInclude Include="game\helpers\ShowErrorMsg\ShowErrorMsg.h" />
     <ClInclude Include="game\model\SelectPcOption\SelectPcOption.h" />
     <ClInclude Include="game\view\SelectPcOptionView\SelectPcOptionView.h" />
-    <ClInclude Include="game\view\SelectPlayerOptionView.h" />
+    <ClInclude Include="game\view\SelectPlayerOptionView\SelectPlayerOptionView.h" />
     <ClInclude Include="game\helpers\ShowElementsName\ShowElementsName.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

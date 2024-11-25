@@ -1,6 +1,7 @@
 #include <iostream>
 #include "SelectPlayerOptionView.h"
-#include "../helpers/ShowErrosMsg.h"
+#include "../../helpers/ShowErrorMsg/ShowErrorMsg.h"
+#include "../../helpers/ShowElementsName/ShowElementsName.h"
 
 
 int selectPlayerOption() {
@@ -31,6 +32,9 @@ int selectPlayerOption() {
 
 	} while (!optionSelected);
 
-	return option;
+	std::string name = showElementName(option);
 
+	std::cout << "El jugador/jugadora ha seleccionado: " << name << std::endl;
+
+	return option;
 }
