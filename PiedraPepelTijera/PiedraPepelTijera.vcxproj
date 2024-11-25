@@ -128,11 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="game\helpers\ShowErrosMsg.cpp" />
+    <ClCompile Include="game\model\SelectPcOption\SelectPcOption.cpp" />
+    <ClCompile Include="game\view\SelectPcOptionView\SelectPcOptionView.cpp" />
     <ClCompile Include="game\view\SelectPlayerOptionView.cpp" />
     <ClCompile Include="PiedraPepelTijera.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game\helpers\ShowErrosMsg.h" />
+    <ClInclude Include="game\model\SelectPcOption\SelectPcOption.h" />
+    <ClInclude Include="game\view\SelectPcOptionView\SelectPcOptionView.h" />
     <ClInclude Include="game\view\SelectPlayerOptionView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

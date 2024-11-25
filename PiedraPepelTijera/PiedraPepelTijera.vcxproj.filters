@@ -24,12 +24,24 @@
     <ClCompile Include="game\helpers\ShowErrosMsg.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="game\model\SelectPcOption\SelectPcOption.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="game\view\SelectPcOptionView\SelectPcOptionView.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game\view\SelectPlayerOptionView.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="game\helpers\ShowErrosMsg.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\model\SelectPcOption\SelectPcOption.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\view\SelectPcOptionView\SelectPcOptionView.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
