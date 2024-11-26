@@ -1,4 +1,4 @@
-#include "DetermineWinner.h"
+#include "DetermineRoundWinner.h"
 #include "../../data/Elements.h"
 
 
@@ -18,7 +18,7 @@
 
 
 
-int determineWinner(const unsigned int playerSelectedOption, const unsigned int pcSelectedOption) {
+int determineRoundWinner(const unsigned int playerSelectedOption, const unsigned int pcSelectedOption) {
 
 	unsigned int indexMatrix[3][2] = { {0,2},{2,1},{1,0} };
 	unsigned int rowsIndex = 0;

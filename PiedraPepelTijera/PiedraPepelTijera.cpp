@@ -1,7 +1,7 @@
 #include <iostream>
 #include "game/view/SelectPlayerOptionView/SelectPlayerOptionView.h"
 #include "game/view/SelectPcOptionView/SelectPcOptionView.h"
-#include "game/view/DetermineWinnerView/DetermineWinnerView.h"
+#include "game/view/DetermineRoundWinnerView/DetermineRoundWinnerView.h"
 
 int main()
 {
@@ -23,7 +23,7 @@ int main()
 		int playerSelection = selectPlayerOption();
 		int pcSelection = selectPcOptionView();
 
-		int winner = determineWinnerView(playerSelection, pcSelection);
+		int winner = determineRoundWinnerView(playerSelection, pcSelection);
 
 
 
