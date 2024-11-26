@@ -128,7 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="game\helpers\ShowErrorMsg\ShowErrorMsg.cpp" />
+    <ClCompile Include="game\model\DetermineWinner\DetermineWinner.cpp" />
     <ClCompile Include="game\model\SelectPcOption\SelectPcOption.cpp" />
+    <ClCompile Include="game\view\DetermineWinnerView\DetermineWinnerView.cpp" />
     <ClCompile Include="game\view\SelectPcOptionView\SelectPcOptionView.cpp" />
     <ClCompile Include="game\view\SelectPlayerOptionView\SelectPlayerOptionView.cpp" />
     <ClCompile Include="game\helpers\ShowElementsName\ShowElementsName.cpp" />
@@ -137,7 +139,9 @@
   <ItemGroup>
     <ClInclude Include="game\data\Elements.h" />
     <ClInclude Include="game\helpers\ShowErrorMsg\ShowErrorMsg.h" />
+    <ClInclude Include="game\model\DetermineWinner\DetermineWinner.h" />
     <ClInclude Include="game\model\SelectPcOption\SelectPcOption.h" />
+    <ClInclude Include="game\view\DetermineWinnerView\DetermineWinnerView.h" />
     <ClInclude Include="game\view\SelectPcOptionView\SelectPcOptionView.h" />
     <ClInclude Include="game\view\SelectPlayerOptionView\SelectPlayerOptionView.h" />
     <ClInclude Include="game\helpers\ShowElementsName\ShowElementsName.h" />
