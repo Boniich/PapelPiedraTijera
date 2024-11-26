@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="game\helpers\ShowErrorMsg\ShowErrorMsg.cpp" />
+    <ClCompile Include="game\helpers\ShowRoundPoints\ShowRoundPoints.cpp" />
     <ClCompile Include="game\model\DetermineGameWinner\DetermineGameWinner.cpp" />
     <ClCompile Include="game\model\DetermineRoundWinner\DetermineRoundWinner.cpp" />
     <ClCompile Include="game\model\SelectPcOption\SelectPcOption.cpp" />
@@ -141,6 +142,7 @@
   <ItemGroup>
     <ClInclude Include="game\data\Elements.h" />
     <ClInclude Include="game\helpers\ShowErrorMsg\ShowErrorMsg.h" />
+    <ClInclude Include="game\helpers\ShowRoundPoints\ShowRoundPoints.h" />
     <ClInclude Include="game\model\DetermineGameWinner\DetermineGameWinner.h" />
     <ClInclude Include="game\model\DetermineRoundWinner\DetermineRoundWinner.h" />
     <ClInclude Include="game\model\SelectPcOption\SelectPcOption.h" />

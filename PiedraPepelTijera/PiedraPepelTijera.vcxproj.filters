@@ -45,6 +45,9 @@
     <ClCompile Include="game\view\DetermineGameWinnerView\DetermineGameWinnerView.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="game\helpers\ShowRoundPoints\ShowRoundPoints.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game\view\SelectPlayerOptionView\SelectPlayerOptionView.h">
@@ -75,6 +78,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="game\view\DetermineGameWinnerView\DetermineGameWinnerView.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\helpers\ShowRoundPoints\ShowRoundPoints.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
