@@ -11,14 +11,6 @@
 // Tijera le gana a papel 
 // papel le gana a piedra
 
-
-//1- empate
-//2- gana jugador
-//3- gana pc
-//-1 - no coincide
-
-
-
 int determineRoundWinner(const unsigned int playerSelectedOption, const unsigned int pcSelectedOption) {
 
 	unsigned int indexMatrix[3][2] = { {0,2},{2,1},{1,0} };

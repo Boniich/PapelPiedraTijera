@@ -3,21 +3,18 @@
 #include "game/view/SelectPcOptionView/SelectPcOptionView.h"
 #include "game/view/DetermineRoundWinnerView/DetermineRoundWinnerView.h"
 #include "game/view/DetermineGameWinnerView/DetermineGameWinnerView.h"
+#include "game/helpers/ShowRoundNumber/ShowRoundNumber.h"
 
 int main()
 {
 	bool isRoundEnd = false;
-	int roundNumber = 1;
+	unsigned int roundNumber = 1;
 	unsigned int roundWonByPlayer = 0;
 	unsigned int roundWonByPc = 0;
 
 	do
 	{
-		std::cout << "" << std::endl;
-		std::cout << "-------------------------------------------------------------" << std::endl;
-		std::cout << "RONDA: "<< roundNumber << std::endl;
-		std::cout << "-------------------------------------------------------------" << std::endl;
-		std::cout << "" << std::endl;
+		showRoundNumber(roundNumber);
 
 		int playerSelection = selectPlayerOption();
 		int pcSelection = selectPcOptionView();
