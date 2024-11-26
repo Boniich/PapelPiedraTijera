@@ -62,22 +62,3 @@ int getWinner(const unsigned int playerSelectedOption, const unsigned int pcSele
 	}
 	return -1;
 }
-
-
-/*int rockWinToScissors = getWinner(playerSelectedOption, pcSelectedOption, 0, 2);
-
-if (checkIfIsThereWinner(rockWinToScissors)) {
-	return rockWinToScissors;
-}
-
-int scissorsWinToPaper = getWinner(playerSelectedOption, pcSelectedOption, 2, 1);
-
-if (checkIfIsThereWinner(scissorsWinToPaper)) {
-	return scissorsWinToPaper;
-}
-
-int paperWinToRock = getWinner(playerSelectedOption, pcSelectedOption, 1, 0);
-
-if (checkIfIsThereWinner(paperWinToRock)) {
-	return paperWinToRock;
-}*/
