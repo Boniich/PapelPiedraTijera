@@ -1,5 +1,6 @@
 #include "DetermineRoundWinner.h"
 #include "../../data/Elements.h"
+#include "../../data/RoundResults.h"
 
 
 
@@ -24,10 +25,10 @@ int determineRoundWinner(const unsigned int playerSelectedOption, const unsigned
 	unsigned int rowsIndex = 0;
 	unsigned int columnsIndex = 1;
 	bool isThereWinner = false;
-	int winner = -1;
+	int winner = NO_COINCIDE.id;
 
 	if (playerSelectedOption == pcSelectedOption) {
-		return 1;
+		return EMPATE.id;
 	}
 
 	do {
@@ -45,7 +46,7 @@ int determineRoundWinner(const unsigned int playerSelectedOption, const unsigned
 }
 
 bool checkIfIsThereWinner(int state) {
-	if (state != -1) return true;
+	if (state != NO_COINCIDE.id) return true;
 	return false;
 }
 
@@ -54,11 +55,11 @@ int getWinner(const unsigned int playerSelectedOption, const unsigned int pcSele
 	const unsigned int indexArryElement1, const unsigned int indexArryElement2) {
 
 	if (playerSelectedOption == elements[indexArryElement1].id && pcSelectedOption == elements[indexArryElement2].id) {
-		return 2;
+		return GANA_JUGADOR.id;
 	}
 
 	if (pcSelectedOption == elements[indexArryElement1].id && playerSelectedOption == elements[indexArryElement2].id) {
-		return 3;
+		return GANA_PC.id;
 	}
-	return -1;
+	return NO_COINCIDE.id;
 }
