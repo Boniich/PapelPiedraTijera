@@ -5,10 +5,54 @@
 
 int main()
 {
-	int playerSelection = selectPlayerOption();
-	int pcSelection = selectPcOptionView();
+	bool isRoundEnd = false;
+	int roundNumber = 1;
+	int roundWonByPlayer = 0;
+	int roundWonByPc = 0;
 
-	determineWinnerView(playerSelection, pcSelection);
+	do
+	{
+		std::cout << "" << std::endl;
+		std::cout << "-------------------------------------------------------------" << std::endl;
+		std::cout << "RONDA: "<< roundNumber << std::endl;
+		std::cout << "-------------------------------------------------------------" << std::endl;
+		std::cout << "" << std::endl;
+
+
+
+		int playerSelection = selectPlayerOption();
+		int pcSelection = selectPcOptionView();
+
+		int winner = determineWinnerView(playerSelection, pcSelection);
+
+
+
+		if (winner == 2) {
+			roundWonByPlayer++;
+			if (roundWonByPlayer >= 2) {
+				isRoundEnd = true;
+				std::cout << "Ha ganado el jugador" << std::endl;
+			}
+		}
+
+		if (winner == 3) {
+			roundWonByPc++;
+			if (roundWonByPc >= 2) {
+				isRoundEnd = true;
+				std::cout << "Ha ganado la PC" << std::endl;
+			}
+		}
+
+		std::cout << "-------------------------------------------------------------" << std::endl;
+		std::cout << "Rondas ganadas para el jugador: " << roundWonByPlayer << std::endl;
+		std::cout << "Rondas ganadas para el PC: " << roundWonByPc << std::endl;
+		std::cout << "-------------------------------------------------------------" << std::endl;
+
+		roundNumber++;
+
+	} while (!isRoundEnd);
+
+
 	
 	return 0;
 }
