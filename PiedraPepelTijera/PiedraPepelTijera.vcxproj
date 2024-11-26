@@ -127,9 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="game\coreGame\PlayGame\PlayGame.cpp" />
     <ClCompile Include="game\helpers\ShowErrorMsg\ShowErrorMsg.cpp" />
+    <ClCompile Include="game\helpers\ShowRoundNumber\ShowRoundNumber.cpp" />
     <ClCompile Include="game\helpers\ShowRoundPoints\ShowRoundPoints.cpp" />
     <ClCompile Include="game\helpers\ShowRoundResult\ShowRoundResult.cpp" />
+    <ClCompile Include="game\helpers\StartGame\StartGame.cpp" />
+    <ClCompile Include="game\menu\Menu.cpp" />
     <ClCompile Include="game\model\DetermineGameWinner\DetermineGameWinner.cpp" />
     <ClCompile Include="game\model\DetermineRoundWinner\DetermineRoundWinner.cpp" />
     <ClCompile Include="game\model\SelectPcOption\SelectPcOption.cpp" />
@@ -141,11 +145,15 @@
     <ClCompile Include="PiedraPepelTijera.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="game\coreGame\PlayGame\PlayGame.h" />
     <ClInclude Include="game\data\Elements.h" />
     <ClInclude Include="game\data\RoundResults.h" />
     <ClInclude Include="game\helpers\ShowErrorMsg\ShowErrorMsg.h" />
+    <ClInclude Include="game\helpers\ShowRoundNumber\ShowRoundNumber.h" />
     <ClInclude Include="game\helpers\ShowRoundPoints\ShowRoundPoints.h" />
     <ClInclude Include="game\helpers\ShowRoundResult\ShowRoundResult.h" />
+    <ClInclude Include="game\helpers\StartGame\StartGame.h" />
+    <ClInclude Include="game\menu\Menu.h" />
     <ClInclude Include="game\model\DetermineGameWinner\DetermineGameWinner.h" />
     <ClInclude Include="game\model\DetermineRoundWinner\DetermineRoundWinner.h" />
     <ClInclude Include="game\model\SelectPcOption\SelectPcOption.h" />
