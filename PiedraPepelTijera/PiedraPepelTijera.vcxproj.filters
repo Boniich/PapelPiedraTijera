@@ -33,10 +33,16 @@
     <ClCompile Include="game\helpers\ShowElementsName\ShowElementsName.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="game\model\DetermineWinner\DetermineWinner.cpp">
+    <ClCompile Include="game\model\DetermineRoundWinner\DetermineRoundWinner.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="game\view\DetermineWinnerView\DetermineWinnerView.cpp">
+    <ClCompile Include="game\view\DetermineRoundWinnerView\DetermineRoundWinnerView.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="game\model\DetermineGameWinner\DetermineGameWinner.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="game\view\DetermineGameWinnerView\DetermineGameWinnerView.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,10 +65,16 @@
     <ClInclude Include="game\helpers\ShowElementsName\ShowElementsName.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="game\model\DetermineWinner\DetermineWinner.h">
+    <ClInclude Include="game\model\DetermineRoundWinner\DetermineRoundWinner.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="game\view\DetermineWinnerView\DetermineWinnerView.h">
+    <ClInclude Include="game\view\DetermineRoundWinnerView\DetermineRoundWinnerView.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\model\DetermineGameWinner\DetermineGameWinner.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="game\view\DetermineGameWinnerView\DetermineGameWinnerView.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
