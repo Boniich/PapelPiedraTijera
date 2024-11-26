@@ -1,10 +1,12 @@
-#include "ShowRoundNumber.h"
+#include "ShowGameResultMsg.h"
 #include <iostream>
 
-void showRoundNumber(unsigned int& roundNumber) {
+void showGameResultMsg(const char* winner) {
 	std::cout << "" << std::endl;
 	std::cout << "-------------------------------------------------------------" << std::endl;
-	std::cout << "\t\t\t RONDA: " << roundNumber << std::endl;
+	std::cout << "\t\t\t FIN DEL JUEGO " << std::endl;
 	std::cout << "-------------------------------------------------------------" << std::endl;
+	std::cout << "" << std::endl;
+	std::cout << "EL GANADOR DEL JUEGO ES: " << winner << std::endl;
 	std::cout << "" << std::endl;
 }

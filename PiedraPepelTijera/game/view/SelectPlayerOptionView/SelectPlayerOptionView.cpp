@@ -16,6 +16,7 @@ int selectPlayerOption() {
 		std::cout << "3- Tijera" << std::endl;
 
 		std::cout << "Introduce una opcion: ";
+		
 
 		if (std::cin >> option) {
 
@@ -34,6 +35,7 @@ int selectPlayerOption() {
 
 	std::string name = showElementName(option);
 
+	std::cout << "" << std::endl;
 	std::cout << "El jugador/jugadora ha seleccionado: " << name << std::endl;
 
 	return option;

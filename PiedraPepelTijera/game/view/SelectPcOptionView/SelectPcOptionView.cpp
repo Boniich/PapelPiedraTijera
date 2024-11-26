@@ -10,6 +10,7 @@ int selectPcOptionView() {
 	std::string name = showElementName(seleted);
 
 	std::cout << "La opcion seleccionada por la PC es: " << name << std::endl;
+	std::cout << "" << std::endl;
 
 	return seleted;
 }

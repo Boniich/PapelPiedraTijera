@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="game\coreGame\PlayGame\PlayGame.cpp" />
     <ClCompile Include="game\helpers\ShowErrorMsg\ShowErrorMsg.cpp" />
+    <ClCompile Include="game\helpers\ShowGameResultMsg\ShowGameResultMsg.cpp" />
     <ClCompile Include="game\helpers\ShowRoundNumber\ShowRoundNumber.cpp" />
     <ClCompile Include="game\helpers\ShowRoundPoints\ShowRoundPoints.cpp" />
     <ClCompile Include="game\helpers\ShowRoundResult\ShowRoundResult.cpp" />
@@ -149,6 +150,7 @@
     <ClInclude Include="game\data\Elements.h" />
     <ClInclude Include="game\data\RoundResults.h" />
     <ClInclude Include="game\helpers\ShowErrorMsg\ShowErrorMsg.h" />
+    <ClInclude Include="game\helpers\ShowGameResultMsg\ShowGameResultMsg.h" />
     <ClInclude Include="game\helpers\ShowRoundNumber\ShowRoundNumber.h" />
     <ClInclude Include="game\helpers\ShowRoundPoints\ShowRoundPoints.h" />
     <ClInclude Include="game\helpers\ShowRoundResult\ShowRoundResult.h" />
